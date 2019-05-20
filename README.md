@@ -2,7 +2,7 @@
 
 A barebones example of creating and rendering a web component and making use of the shadow DOM
  
-The concept off adding an encapsulated DOM within an element in the main DOM.
+The concept of adding an encapsulated DOM within an element in the main DOM.
 The encapsulated DOM (shadow) does not reach out into the main DOM, and therefore any styles, classnames, or id's etc will not conflict with those in the external DOM.
 A shadow DOM must be attached to an element on the main DOM.
 Typically, in web components, the main element is the custom element to which the shadow DOM belongs.
